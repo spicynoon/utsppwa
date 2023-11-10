@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.board {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
+  margin: 2px;
+}
+
+.clues {
+  display: inline-block;
+  text-align: left;
+}
+
+.across,
+.down {
+  margin-bottom: 20px;
+}
+
+input {
+  margin-left: 10px;
+}
+
+button {
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 10px 20px;
+}
